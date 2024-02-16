@@ -27,4 +27,3 @@ num1 = 5+5
 num2 =10 - 3
 
 print(num1 + num2)
-item = "jacket"

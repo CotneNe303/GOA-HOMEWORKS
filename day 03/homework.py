@@ -2,14 +2,14 @@
 name ="deda"
 age =42
 height =160
-print( name + " " + str(age) + " " + str(height) )
+print( name + " " + str(age) + " " + str(height) )#gardavqmenit tipi
 
 #ახლანდელი დრო
 
 name ="deda"
 age =42+2
 height =160
-print( name + " " + str(age) + " " + str(height) )
+print( name + " " + str(age) + " " + str(height) ) #gardavqmrenit tipi
 
 #ორიწლის მერე
 
