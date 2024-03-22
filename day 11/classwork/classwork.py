@@ -36,3 +36,5 @@ print(info)
 name = "dato"
 name[1] = "i"
 print(name)
+# lisr is mutable
+# string is imutable
