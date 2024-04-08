@@ -19,14 +19,14 @@
 # print(my_find(["luka", "lile", "nia"], "lile"))
 
 
-def func(string_list):
-    index = int(input("please enter index between 0" + "-" + str(len(string_list) -1) + ": " ))
+# def func(string_list):
+#     index = int(input("please enter index between 0" + "-" + str(len(string_list) -1) + ": " ))
     
-    string_list[index] = "Luka"
+#     string_list[index] = "Luka"
 
-    result = " ".join(string_list)
+#     result = " ".join(string_list)
 
-    return result
+#     return result
 
-print(func(["Luka", "Lile", "Nia"]))
+# print(func(["Luka", "Lile", "Nia"]))
 

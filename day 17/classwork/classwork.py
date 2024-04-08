@@ -61,6 +61,9 @@ print("stirng".lower())
 
 word = "string" #capitalize ფუნქცია სტრინგ მნიშვნელობაში სიმბოლოებს უცვლის კაპიტალს ანუ პირველ ასოს
 print("string".capitalize())
+ 
+word =  "string" #find ფუნქცია სტრინგ მნიშვნელონაში პულობს ინდექსის ადგილს და გვიჩვენებს ტერმინალში მის ნომერს
+print(word.find("r"))
 
-word =  "string"
-print(word.find(3))
+
+

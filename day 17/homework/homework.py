@@ -28,11 +28,11 @@
 
 
 #2)
-names_list = ["name1", "name2", "name3", "name4"]
+# names_list = ["name1", "name2", "name3", "name4"]
 
-def find_and_change(listn):
-    index = int(input("Wich index would you like to change ?"))
-    listn[index] = input("What is the new value ?")
-    print(listn)
+# def find_and_change(listn):
+#     index = int(input("Wich index would you like to change ?"))
+#     listn[index] = input("What is the new value ?")
+#     print(listn)
 
-find_and_change(names_list)
+# find_and_change(names_list)
