@@ -45,17 +45,17 @@
 
 
 
+# def greet(username = "Guest"):
+#     print("hello " + username)
+
+
+# greet("luka")
+# greet("Nika")
+# greet("Giga")
+# greet()
 
 
 
-def greet(username = "Guest"):
-    print("hello " + username)
-
-
-greet("luka")
-greet("Nika")
-greet("Giga")
-greet()
 
 
 

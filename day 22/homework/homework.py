@@ -51,17 +51,17 @@
 
 
 #4)
-def manual_max(numList=None):
+# def manual_max(numList=None):
 
-    if (numList == None):
-        numList = [1,2,3,4,5,6,7,8,9,10]
+#     if (numList == None):
+#         numList = [1,2,3,4,5,6,7,8,9,10]
 
-    minFound = numList[0]
-    for value in numList:
-        if value > minFound:
-            minFound = value
-    return minFound
+#     minFound = numList[0]
+#     for value in numList:
+#         if value > minFound:
+#             minFound = value
+#     return minFound
 
-numList = [3, 2, 1, 4]
-print(manual_max(numList))
-print(manual_max())
+# numList = [3, 2, 1, 4]
+# print(manual_max(numList))
+# print(manual_max())
