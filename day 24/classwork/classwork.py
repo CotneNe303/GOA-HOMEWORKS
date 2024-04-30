@@ -34,12 +34,12 @@
 #     return [i * x for i in range(1,n+1)]
 
 #6
-def toJadenCase(string):
-    return ' '.join(i.capitalize() for i in string.split(" ")) #?
+# def toJadenCase(string):
+#     return ' '.join(i.capitalize() for i in string.split(" ")) #?
 
-#7
-def accum(st):
-    str = accum("abcd")
+# #7
+# def accum(st):
+#     str = accum("abcd")
 
 
 #8
@@ -60,6 +60,6 @@ def accum(st):
 
 #     return sum(result)
 #10
-def likes(names):
-    # your code here
+# def likes(names):
+#     # your code here
 
