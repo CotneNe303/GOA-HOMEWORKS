@@ -97,14 +97,14 @@
 # print(combine_list(list1, list2))
 
 #9
-combine_list = ["cotne", 15, 24.5,False, "nini", 15, "nini", True, False, "thibault"]
+# combine_list = ["cotne", 15, 24.5,False, "nini", 15, "nini", True, False, "thibault"]
 
-def only_one_in_list(listn):
-    new_list= []
-    for i in listn:
-        if listn.count(i) == 1:
-            new_list.append(i)
-    return new_list
+# def only_one_in_list(listn):
+#     new_list= []
+#     for i in listn:
+#         if listn.count(i) == 1:
+#             new_list.append(i)
+#     return new_list
             
 
-print(only_one_in_list(combine_list))
+# print(only_one_in_list(combine_list))
