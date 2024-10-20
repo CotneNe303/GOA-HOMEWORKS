@@ -13,9 +13,37 @@ class Animal {
       console.log('Age: ' + this.age + ' years');
     }
   }
-  let lion = new Animal('Leo', 'Lion', 5);
+  let lion = new Animal('alika', 'Lion', 5);
   lion.speak();           
   lion.displayDetails(); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,20 +74,39 @@ class Car {
     }
 }
 
-let myCar = new Car('Mercedes', "E-klass", "2022", "Silver")
+let myCar1 = new Car('Mercedes', "E-klass", "2022", "Silver")
+let myCar2 = new Car('Landrover', 'Rangerover', '2020', 'Black')
 
-myCar.start();
-myCar.stop();
-myCar.displayDEtails();
+myCar1.start();
+myCar1.stop();
+myCar1.displayDEtails();
+
+myCar2.start();
+myCar2.stop();
+myCar2.displayDEtails();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 class Human {
-    constructor(name, age, gender, occupation) {
+    constructor(name, age, gender, profesion) {
       this.name = name;      
       this.age = age;          
       this.gender = gender;    
-      this.occupation = occupation;  
+      this.profesion = profesion;  
     }
   
     greet() {
@@ -67,11 +114,11 @@ class Human {
     }
   
     introduce() {
-      console.log('I am ' + this.name + ', ' + this.age + ' years old, and I work as a ' + this.occupation + '.');
+      console.log('I am ' + this.name + ', ' + this.age + ' years old, and I work as a ' + this.profesion + '.');
     }
 
     work() {
-      console.log(this.name + ' is working as a ' + this.occupation + '.');
+      console.log(this.name + ' is working as a ' + this.profesion + '.');
     }
   
 
@@ -79,7 +126,7 @@ class Human {
       console.log('Name: ' + this.name);
       console.log('Age: ' + this.age);
       console.log('Gender: ' + this.gender);
-      console.log('Occupation: ' + this.occupation);
+      console.log('Profesion: ' + this.profesion);
     }
   }
 
