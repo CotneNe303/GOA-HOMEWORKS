@@ -30,7 +30,7 @@ class Lion extends Animal{
         console.log('This is a Lion named' + this.name + '.');
     }
     static lionInfo() {
-        console.log('Lions are big cats known for their majestic manes.');
+        console.log('Lions are big cats.');
     }
 
 }
@@ -78,6 +78,7 @@ class Human {
     }
     introduce() {
         console.log('I am ' + this.name + ', ' + this.age + ' years old, and I work as a ' + this.profession + '.');
+        console.log(`I am ${this.name}, ${this.age} years old, and I work as a ${this.profession}.`);
     }
     work() {
         console.log(this.name + ' is working as a ' + this.profession + '.');
@@ -90,9 +91,6 @@ class Human {
     }
     static generalInfo() {
         console.log('Humans are highly intelligent beings');
-    }
-    static countHumans(humansArray) {
-        return humansArray.length;
     }
 }
 
@@ -132,4 +130,3 @@ employee1.work();
 employee1.displayDetails();
 Employee.employeeInfo();
 
-  
